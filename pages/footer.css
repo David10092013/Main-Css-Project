@@ -1,0 +1,10 @@
+.box{
+    width: 100%;
+    background-color: var(--dark-hero-footer);
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

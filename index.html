@@ -1,86 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-    <body>
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Main Css Project</title>
-            <link rel="stylesheet" href="./pages/style.css">
-            <link rel="stylesheet" href="./pages/header.css">
-            
-        </head>   
 
-        <header>
-            <nav>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Css Project</title>
+    <link rel="stylesheet" href="./pages/style.css">
+    <link rel="stylesheet" href="./pages/header.css">
+    <link rel="stylesheet" href="./pages/hero.css">
+    <link rel="stylesheet" href="./pages/image.css">
+    <link rel="stylesheet" href="./pages/information.css">
+    <link rel="stylesheet" href="./pages/contact.css">
+    <link rel="stylesheet" href="./pages/footer.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <figure class="logo"><img src="./img/logo.png" alt="Ark logo"></figure>
+            <nav class="nav">
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <a href="">Home</a>
+                    <a href="">Reviews</a>
+                    <a href="">Contact</a>
+
                 </ul>
             </nav>
-        </header>
+        </div>
+    </header>
 
-        <main>
-            <section>
-                <figure><img src="" alt=""></figure>
-                
-                <div>
-                    <h1></h1>  
-                    <p></p>
-                    <button></button>
-                </div>
-            </section>
-        </main>
-
+    <main id="main">
         <section>
             <div class="box-container">
-                <div>
-                    <h2></h2>
-                    <figure>
-                        <img src="" alt=""></img>
-                            <p></p>
-                        
-                        <img src="" alt=""></img>
-                            <p></p>
-                        
-                        <img src="" alt=""></img>
-                            <p></p>
-                        
-                        <img src="" alt=""></img>
-                            <p></p>
-                        
-                    </figure>
+
+                <div class="background-color">
+
+                    <div class="text-image">
+                        <h1>This website is awesome</h1>
+                        <p>The website has some subtext that goes here under the main title it's a smaller font and the
+                            color is lower contrast
+                        </p>
+                        <button class="btn">sign up</button>
+                    </div>
+
+                    
+                   <figure class="image"><img src="./img/main-picture.png" alt="clots ith diferent colors"></figure>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <section>
+        <h2>New Colection</h2>
+        <div class="row">
+           
+            
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="./img/boy.png" alt="">
+                </div>
+                <div class="card-body">
+                    <p>This is some subtext
+                        under an ilustration
+                        or image
+                    </p>
                 </div>
             </div>
-        </section>
 
-        <section>
-            <article>
-                <div class="box-container">
-                    <p></p>
-                </div>
-            </article>
-        </section>
-
-
-        <div class="detals">
-            <section>
-                <div>
-                    <h1></h1>
-                    <p></p>
-                    <button disabled="disabled"></button>
+            <div class="card">
+               <img src="./img/girl.png" alt="">
+                <div class="card-body">
                     
+                    <p>This is some subtext
+                        under an ilustration
+                        or image
+                    </p>
                 </div>
-            </section>
+            </div>
+
+            <div class="card">
+                <img src="./img/glass.png" alt="">
+                <div class="card-body">
+                    <p>This is some subtext
+                        under an ilustration
+                        or image
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/white.png" alt="">
+                <div class="card-body">
+                    <p>This is some subtext
+                        under an ilustration
+                        or image
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <footer>
-            <div class="box">
-                <p></p>
+
+
+    </section>
+
+    <section >
+        <article>
+            <div class="quote">
+                <p >“they have good quality items, the prices are a little expensive at some things but, otherwise, things like shoes have very good prices because they are good quality." 
+                <span class="last-world">-customer</span>
+                </p>
+                
+
+                
             </div>
-        </footer>
-    </body>
-    
+            
+        </article>
+    </section>
+
+
+    <div class="detals">
+        <section class="background-blue">
+            <div class="content-contact">
+                <h1>Contact us</h1>
+                <p>Sign up for our product by clicking that button right over there!</p>
+                <button class="btn-contact">Sign up</button>
+
+            </div>
+            
+
+        </section>
+    </div>
+
+    <footer>
+        <div class="box">
+            <p> © Copyright 2022 ARK. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
 
 </html>

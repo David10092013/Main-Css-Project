@@ -1,0 +1,39 @@
+.detals {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 40vh;
+}
+
+.btn-contact {
+  background: var(--button);
+  color: var(--secondary-text);
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: bolder;
+  width: 130px;
+  margin-top: 1rem;
+  border: 3px solid var(--secondary-text);
+}
+
+.background-blue {
+  background-color: var(--button);
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 15vh;
+  border-radius: 10px;
+}
+h1 {
+  color: var(--secondary-text);
+  font-size: 24px;
+}
+
+p {
+  color: var(--secondary-text);
+  font-size: 18px;
+}
