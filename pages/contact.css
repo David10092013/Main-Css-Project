@@ -6,7 +6,12 @@
   text-align: left;
   height: 40vh;
 }
-
+.content-contact{
+  margin: 1rem;
+}
+.content-contact .btn-contact{
+  margin-bottom: 1.5rem;
+}
 .btn-contact {
   background: var(--button);
   color: var(--secondary-text);
@@ -17,16 +22,18 @@
   width: 130px;
   margin-top: 1rem;
   border: 3px solid var(--secondary-text);
+  float: right;
 }
 
 .background-blue {
   background-color: var(--button);
   width: 60%;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  height: 15vh;
+ 
   border-radius: 10px;
+}
+
+.text-h1-p{
+  float: left;
 }
 h1 {
   color: var(--secondary-text);
@@ -36,4 +43,10 @@ h1 {
 p {
   color: var(--secondary-text);
   font-size: 18px;
+}
+
+@media only screen and (max-width: 615px){
+  .background-blue{
+    min-width: 415px;
+  }
 }
